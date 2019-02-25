@@ -42,18 +42,15 @@ $(document).ready(function() {
  		$("body").css('background-color', 'grey');
 	});
 
-	
 	// jQuery Events Challenges 1
 	$("#button1").click(function(){
             $('#button1').hide('slow');
     });
 	
-	
 	// jQuery Events Challenges 2 + 3
 	$(".bottom_button").click(function(){
             $(this).siblings('p').slideToggle ('slow');
     });
-	
 	
 	// jQuery Events Challenges 4
 	$(".bottom_button").mouseenter(function() {
